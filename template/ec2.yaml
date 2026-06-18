@@ -79,7 +79,13 @@ Resources:
                   <h1>Arquitectura de Computadores - Examen Final</h1>
                   <p class="subtitle">Keiner Josue Barbosa Calderon</p>
                   <p class="subtitle">0192502</p>
-                  <p>prueba de subir el branchsds</p>
+                  
+                 <p>Modificación realizada por Yordy Pacheco</p>
+
+                 <p>Colaboración en repositorio compartido</p>
+
+
+
                   <div class="meta-box">
                       <div class="meta-line"><strong>ID de Instancia:</strong> $INSTANCE_ID</div>
                       <div class="meta-line"><strong>IP Pública:</strong> $PUBLIC_IP</div>
