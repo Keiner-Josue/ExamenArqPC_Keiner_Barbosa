@@ -1,0 +1,27 @@
+name: Deploy EC2
+
+on:
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Configure AWS credentials
+        uses: aws-actions/configure-aws-credentials@v4
+        with:
+          aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+          aws-region: us-east-1
+
+      - name: Deploy CloudFormation Stack
+        run: |
+          # Le cambiamos el nombre al stack a 'ec2-stack-clase-v2' para forzar a AWS a crear todo limpio
+          aws cloudformation deploy \
+          --template-file template/ec2.yaml \
+          --stack-name ec2-stack-clase-v2 \
+          --no-fail-on-empty-changeset
