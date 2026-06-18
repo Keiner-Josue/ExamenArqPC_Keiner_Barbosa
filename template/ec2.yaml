@@ -76,7 +76,9 @@ Resources:
           <body>
               <div class="card">
                   <div class="icon">✔</div>
-                  <h1>solo abelardo en esta pagina, soy keiner </h1>
+                  <h1>Arquitectura de Computadores - Examen Final</h1>
+                  <p class="subtitle">Keiner Josue Barbosa Calderon</p>
+                  <p class="subtitle">0192502</p>
                   <p>prueba de subir el branchsds</p>
                   <div class="meta-box">
                       <div class="meta-line"><strong>ID de Instancia:</strong> $INSTANCE_ID</div>
