@@ -4,7 +4,7 @@ Este proyecto corresponde al examen final de la asignatura **Arquitectura Orient
 
 **Estudiante:** Keiner Josué Barbosa Calderon  
 **Código:** 0192502  
-**Materia: ** Arqutectura de Computadores
+**Materia: ** Arqutectura de Computadores Final
 
 ---
 
